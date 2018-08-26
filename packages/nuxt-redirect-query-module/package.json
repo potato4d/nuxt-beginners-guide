@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-redirect-query-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "dev": "nuxt test/fixture",
+    "test:dev": "NODE_ENV=development jest"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "jest": "^23.5.0",
+    "nuxt": "^1.4.2",
+    "request-promise-native": "^1.0.5"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "jsdom": "^12.0.0"
+  }
+}
