@@ -2,6 +2,8 @@ module.exports = {
   title: 'Nuxt.js ビギナーズガイド',
   themeConfig: {
     sidebar: {
+      '/about/': [''],
+      '/eratta/': [''],
       '/examples/': [
         '',
         'my-first-nuxt-app.md',
@@ -14,9 +16,16 @@ module.exports = {
       ]
     },
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '本書について', link: '/about/' },
       { text: 'サンプル一覧', link: '/examples/' },
-      { text: 'GitHub', link: 'https://github.com/elevenback/nuxt-beginners-guide-examples' }
-    ]
+      { text: '正誤表', link: '/eratta/' },
+      { text: 'Twitter', link: 'https://twitter.com/potato4d' }
+    ],
+    repo: 'potato4d/nuxt-beginners-guide',
+    repoLabel: 'GitHub',
+    docsRepo: 'potato4d/nuxt-beginners-guide',
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: '編集を提案する'
   }
 }
