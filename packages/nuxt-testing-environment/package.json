@@ -1,0 +1,56 @@
+{
+  "name": "nuxt-testingenvironment",
+  "version": "1.0.0",
+  "description": "My splendid Nuxt.js project",
+  "author": "HANATANI Takuma",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.24",
+    "babel-jest": "^23.4.2",
+    "babel-preset-vue-app": "^2.0.0",
+    "cross-env": "^5.0.1",
+    "jest": "^23.5.0",
+    "lodash.clonedeep": "^4.5.0",
+    "vue-jest": "^2.6.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      ".*\\.(vue)$": "vue-jest"
+    },
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/app/$1",
+      "^@@/(.*)$": "<rootDir>/$1",
+      "^~/(.*)$": "<rootDir>/app/$1",
+      "^~~/(.*)$": "<rootDir>/$1"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "collectCoverageFrom": [
+      "app/**/*.{js,vue}"
+    ]
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          "vue-app"
+        ]
+      }
+    }
+  }
+}
