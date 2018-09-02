@@ -11,7 +11,6 @@
   </div>
 </template>
 
-
 <script>
 import AppNavigation from '~/components/AppNavigation.vue'
 
