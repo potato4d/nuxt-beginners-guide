@@ -1,5 +1,6 @@
 module.exports = {
   title: 'Nuxt.js ビギナーズガイド',
+  description: '「Nuxt.js ビギナーズガイド（C&R研究所出版）」　のサポートページです',
   themeConfig: {
     sidebar: {
       '/about/': ['', 'eratta.md', 'keywords.md'],

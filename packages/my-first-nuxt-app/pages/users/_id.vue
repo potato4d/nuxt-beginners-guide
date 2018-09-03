@@ -27,6 +27,11 @@
 import { mapGetters } from 'vuex';
 
 export default {
+  head() {
+    return {
+      title: this.user.id
+    }
+  },
   async asyncData({ route, store, redirect }) {
     if (store.getters['users'][route.params.id]) {
       return;
