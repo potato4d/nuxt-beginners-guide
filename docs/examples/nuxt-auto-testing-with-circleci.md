@@ -1,5 +1,5 @@
 ---
-title: 04. Nuxt アプリケーションへの CircleCI による自動テスト
+title: 05. Nuxt アプリケーションへの CircleCI による自動テスト
 ---
 
 # Nuxt アプリケーションへの CircleCI による自動テスト

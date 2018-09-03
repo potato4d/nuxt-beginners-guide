@@ -1,5 +1,5 @@
 ---
-title: 02. Firebase と連携したブログアプリケーション
+title: 03. Firebase と連携したブログアプリケーション
 ---
 
 # Firebase と連携したブログアプリケーション

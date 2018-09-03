@@ -1,5 +1,5 @@
 ---
-title: 03. Nuxt + Jest でのテスト環境
+title: 04. Nuxt + Jest でのテスト環境
 ---
 
 # Nuxt + Jest でのテスト環境

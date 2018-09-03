@@ -7,6 +7,7 @@ module.exports = {
       '/examples/': [
         '',
         'my-first-nuxt-app.md',
+        'nuxt-api-examples.md',
         'nuxt-blog-service.md',
         'nuxt-testing-environment.md',
         'nuxt-auto-testing-with-circleci.md',
