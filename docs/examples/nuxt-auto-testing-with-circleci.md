@@ -32,3 +32,11 @@ jobs:
 実際にテストが動いているところを書く
 
 GitHub: [potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-auto-testing-with-circleci](https://github.com/potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-auto-testing-with-circleci)
+
+### より深く学ぶには……
+
+CircleCI を利用した自動テスト環境などについて、より深く知りたい場合は、 JSLounge Archives というWebサイトにて公開されている「ESLint + CircleCIハンズオン」の資料が参考になります。
+
+あわせて「Vue + Jest ハンズオン」の資料も入手しておくと、テストについてより深く理解できるはずです。
+
+[https://jslounge-archives.elevenback.jp/](https://jslounge-archives.elevenback.jp/)

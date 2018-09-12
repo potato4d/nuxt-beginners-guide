@@ -13,9 +13,9 @@ title: 貢献
 ### 書籍レビュアー
 
 - <img class="contributor-avatar" src="https://github.com/masaakikunsan.png"> 石岡 将明(@masaakikunsan)様
-- <img class="contributor-avatar" src="https://github.com/Tosuke.png"> 新田 圭祐(@Tosuke)様
 - <img class="contributor-avatar" src="https://github.com/mya-ake.png"> 渋田 達也(@mya-ake)様
 - <img class="contributor-avatar" src="https://github.com/localdisk.png"> 松尾 大(@localdisk)様
+- 新田 圭祐様
 
 ### 書評依頼許諾者
 
