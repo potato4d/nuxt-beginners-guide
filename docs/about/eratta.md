@@ -19,5 +19,5 @@ title: 正誤表
 もし誤字・誤植を見つけたかたは、筆者へメールもしくは Twitter にてご連絡いただけますと幸いです。また、サポートページにおいて見つけた場合は、 GitHub レポジトリの Issue や Pull Request による貢献をお待ちしております。
 
 - Twitter: [https://twitter.com/potato4d](https://twitter.com/potato4d)
-- E メール: [mail@potato4d.me](mailto:mail@potato4d.me)
+- E メール: [admin@elevenback.jp](mailto:admin@elevenback.jp)
 - GitHub: [https://github.com/potato4d/nuxt-beginners-guide](https://github.com/potato4d/nuxt-beginners-guide)
