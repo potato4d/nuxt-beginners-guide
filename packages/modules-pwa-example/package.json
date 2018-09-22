@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.3.2",
-    "nuxt": "^1.0.0"
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
