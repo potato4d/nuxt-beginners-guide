@@ -40,17 +40,5 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-  ],
-
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-
-    }
-  }
+  ]
 }

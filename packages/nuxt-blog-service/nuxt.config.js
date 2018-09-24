@@ -57,20 +57,5 @@ module.exports = {
   axios: {
     baseURL: 'https://nuxt-blog-service.firebaseio.com'
     // See https://github.com/nuxt-community/axios-module#options
-  },
-
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-
-    }
-  },
-  vendor: [
-    'moment'
-  ]
+  }
 }
