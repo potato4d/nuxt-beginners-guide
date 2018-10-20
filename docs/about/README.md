@@ -44,7 +44,6 @@ Nuxt.js の概要や魅力からはじまり、基本的な仕組みや開発の
 - E メール: [admin@elevenback.jp](mailto:admin@elevenback.jp)
 - GitHub: [https://github.com/potato4d/nuxt-beginners-guide](https://github.com/potato4d/nuxt-beginners-guide)
 
-
 ## ご購入いただいたかたへ
 
 以下は購入者向けのコンテンツとなります。

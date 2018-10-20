@@ -12,7 +12,7 @@ GitHub: [potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-testing-environ
 
 ## より深く学ぶには……
 
-もし、 Jest のテストについてより深く学びたいという場合には、筆者の運営する JSLounge Archives にて公開されている「React + Jestハンズオン」や、「Vue + Jestハンズオン」の資料が参考になります。
+もし、 Jest のテストについてより深く学びたいという場合には、筆者の運営する JSLounge Archives にて公開されている「React + Jest ハンズオン」や、「Vue + Jest ハンズオン」の資料が参考になります。
 
 それぞれのフレームワークごとの違いや、そもそもの Jest の他のテストランナーとの優位性などを正しく把握することが可能です。
 

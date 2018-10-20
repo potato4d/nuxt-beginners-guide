@@ -2,6 +2,11 @@ module.exports = {
   title: 'Nuxt.js ビギナーズガイド',
   description: '「Nuxt.js ビギナーズガイド（C&R研究所出版）」　のサポートページです',
   themeConfig: {
+    algolia: {
+      appId: 'SDCNXEIPU4',
+      apiKey: '511bd4ab1983e9c564b33d61f1b32d14',
+      indexName: 'index'
+    },
     sidebar: {
       '/about/': ['', 'eratta.md', 'keywords.md'],
       '/credit/': [''],

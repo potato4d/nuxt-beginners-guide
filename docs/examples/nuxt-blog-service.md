@@ -14,7 +14,7 @@ GitHub: [potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-blog-service](h
 
 ## より深く学ぶには……
 
-Firebase と組み合わせて更に高度なアプリケーションを開発したい場合、筆者の運営する JSLounge Archives(リンク下) というWebサイトにて公開されている「React + Firebaseハンズオン」および「Vue + Firebaseハンズオン」の資料が参考になります。React や Vue.js での事例をもとに、 Nuxt.js ではどのように書くかを体験してみることで、比較と学びの機会となります。
+Firebase と組み合わせて更に高度なアプリケーションを開発したい場合、筆者の運営する JSLounge Archives(リンク下) という Web サイトにて公開されている「React + Firebase ハンズオン」および「Vue + Firebase ハンズオン」の資料が参考になります。React や Vue.js での事例をもとに、 Nuxt.js ではどのように書くかを体験してみることで、比較と学びの機会となります。
 
 また、本書の中にも書いてありますが、 Firebase SDK を利用した形にプロジェクトを書き換え、 SPA の領域と SSR の領域それぞれを考慮した開発を行ってみても良いかもしれません。
 
