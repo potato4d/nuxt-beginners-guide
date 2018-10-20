@@ -6,7 +6,9 @@ title: 05. Nuxt アプリケーションへの CircleCI による自動テスト
 
 [![Image from Gyazo](https://i.gyazo.com/fbf2f9ee85efa176687cdf47679e0208.gif)](https://gyazo.com/fbf2f9ee85efa176687cdf47679e0208)
 
-CircleCI の GUI 操作のスクリーンショットなどを書く
+Nuxt + Jest で構築したテスト環境を自動で実行するためのサンプルとなります。この例のサンプルをそのまま使うことによって、開発中のアプリケーションへと簡単に CI を導入することができます。
+
+その際、もし CircleCI を利用の場合は、 `.circle/config.yml` に以下を設定すると良いでしょう。
 
 ```yaml
 version: 2
@@ -28,8 +30,6 @@ jobs:
       - run: yarn test
       - run: yarn build
 ```
-
-実際にテストが動いているところを書く
 
 GitHub: [potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-auto-testing-with-circleci](https://github.com/potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-auto-testing-with-circleci)
 

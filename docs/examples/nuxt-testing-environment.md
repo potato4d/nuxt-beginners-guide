@@ -8,6 +8,8 @@ title: 04. Nuxt + Jest でのテスト環境
 
 GitHub: [potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-testing-environment](https://github.com/potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-testing-environment)
 
+公式ドキュメントでも情報が少ない、テスト環境のサンプルとなります。このサンプルでは、 create-nuxt-app ベースのプロジェクトへ Jest を導入し、実際に動かしてみるまでを体験することができます。
+
 ### より深く学ぶには……
 
 もし、 Jest のテストについてより深く学びたいという場合には、 JSLounge Archives というWebサイトにて公開されている「React + Jestハンズオン」や、「Vue + Jestハンズオン」の資料が参考になります。
