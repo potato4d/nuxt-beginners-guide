@@ -12,8 +12,13 @@ GitHub: [potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-blog-service](h
 
 「Firebase と連携した」とはいえ、ただの REST API との通信基盤として利用しており、HTTP クライアントである axios をベースとしたオーソドックスなアプリケーションの開発の流れを全て掴んで頂く事が可能となっております。
 
-### より深く学ぶには……
+## より深く学ぶには……
 
-Firebase と組み合わせて更に高度なアプリケーションを開発したい場合、 JSLounge Archives というWebサイトにて公開されている「React + Firebaseハンズオン」および「Vue + Firebaseハンズオン」の資料が参考になります。React や Vue.js での事例をもとに、 Nuxt.js ではどのように書くかを体験してみることで、比較と学びの機会となります。
+Firebase と組み合わせて更に高度なアプリケーションを開発したい場合、筆者の運営する JSLounge Archives(リンク下) というWebサイトにて公開されている「React + Firebaseハンズオン」および「Vue + Firebaseハンズオン」の資料が参考になります。React や Vue.js での事例をもとに、 Nuxt.js ではどのように書くかを体験してみることで、比較と学びの機会となります。
 
-[https://jslounge-archives.elevenback.jp/](https://jslounge-archives.elevenback.jp/)
+また、本書の中にも書いてありますが、 Firebase SDK を利用した形にプロジェクトを書き換え、 SPA の領域と SSR の領域それぞれを考慮した開発を行ってみても良いかもしれません。
+
+## 外部リンク
+
+- GitHub: [potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-blog-service](https://github.com/potato4d/nuxt-beginners-guide/tree/master/packages/nuxt-blog-service)
+- JSLounge Archives [https://jslounge-archives.elevenback.jp/](https://jslounge-archives.elevenback.jp/)
