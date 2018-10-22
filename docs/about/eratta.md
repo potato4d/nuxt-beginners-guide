@@ -10,6 +10,43 @@ title: 正誤表
 
 現在致命的な誤字・誤植は見つかっておりません。
 
+### babel のメジャーバージョンアップに伴うパッケージの変更
+
+> 以下の情報は 2018 年 10 月 22 日時点のものです。パッケージの情報は随時変わる可能性があります。
+
+- 正: @babel/preset-env
+- 誤: babel-preset-vue-app
+
+本書では Jest を利用したテスティングにて述べられていますが、この際に利用する babel のビルド環境を、最新版 7.x にあわせたものとする必要があります。
+
+現時点では最新で必要なパッケージは `@babel/preset-env` であり、書籍に利用されている `babel-preset-vue-app` では最新の要件を満たさないようになっています。
+
+そのため、以下のコマンドを実行の上、 package.json に記述するパッケージ情報についても変更ください。
+
+パッケージ:
+
+```
+$ yarn remove babel-preset-vue-app
+$ yarn add -D @babel/preset-env
+```
+
+package.json:
+
+```
+{
+  ...
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          "@babel/preset-env"
+        ]
+      }
+    }
+  }
+}
+```
+
 ## その他のもの
 
 現在誤字・誤植は見つかっておりません。
