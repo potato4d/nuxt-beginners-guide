@@ -10,6 +10,13 @@ title: 正誤表
 
 現在致命的な誤字・誤植は見つかっておりません。
 
+### Qiita API のアクセストークンの形式について
+
+本書では、第二章で Qiita API へとアクセスを行いますが、その際のトークン指定方法に誤りがあったため、以下のように設定するようにお願いたします。
+
+正: `config.headers.common['Authorization'] =`Bearer ${process.env.QIITA_TOKEN}``
+誤: `config.headers.common['Authorization'] = process.env.QIITA_TOKEN`
+
 ### babel のメジャーバージョンアップに伴うパッケージの変更
 
 > 以下の情報は 2018 年 10 月 22 日時点のものです。パッケージの情報は随時変わる可能性があります。
@@ -54,11 +61,28 @@ package.json:
 正: `state.users[user.id]`
 誤: `state.user[user.id]`
 
+### P.94
+
+common.css を作成後、設定として追加するコードが漏れています(追加せずともアプリケーションは動作します)。
+
+nuxt.config.js へ以下を追加:
+
+```
+module.exports = {
+  ...
+  css: [
+    'element-ui/lib/theme-chalk/index.css',
+    '~/assets/common.css'
+  ],
+  ...
+}
+```
+
 ## その他のもの
 
 現在誤字・誤植は見つかっておりません。
 
-### P.145 1行目 typo
+### P.145 1 行目 typo
 
 正: 先頭
 誤: 銭湯
