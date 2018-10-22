@@ -14,8 +14,8 @@ title: 正誤表
 
 本書では、第二章で Qiita API へとアクセスを行いますが、その際のトークン指定方法に誤りがあったため、以下のように設定するようにお願いたします。
 
-正: `config.headers.common['Authorization'] =`Bearer ${process.env.QIITA_TOKEN}``
-誤: `config.headers.common['Authorization'] = process.env.QIITA_TOKEN`
+- 正: <code>config.headers.common['Authorization'] =`Bearer ${process.env.QIITA_TOKEN}`</code>
+- 誤: `config.headers.common['Authorization'] = process.env.QIITA_TOKEN`
 
 ### babel のメジャーバージョンアップに伴うパッケージの変更
 
@@ -58,8 +58,8 @@ package.json:
 
 ### P.56
 
-正: `state.users[user.id]`
-誤: `state.user[user.id]`
+- 正: `state.users[user.id]`
+- 誤: `state.user[user.id]`
 
 ### P.94
 
@@ -84,13 +84,13 @@ module.exports = {
 
 ### P.145 1 行目 typo
 
-正: 先頭
-誤: 銭湯
+- 正: 先頭
+- 誤: 銭湯
 
 ### P.186
 
-正: 必要が一つ
-誤: 必要が重複
+- 正: 必要が一つ
+- 誤: 必要が重複
 
 ## もし新たに見つけた場合は……
 
