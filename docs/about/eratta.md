@@ -12,7 +12,7 @@ title: 正誤表
 
 本書では、第二章で Qiita API へとアクセスを行いますが、その際のトークン指定方法に誤りがあったため、以下のように設定するようにお願いたします。
 
-- 正: <code>config.headers.common['Authorization'] =`Bearer ${process.env.QIITA_TOKEN}`</code>
+- 正: <code>config.headers.common['Authorization'] =\`Bearer ${process.env.QIITA_TOKEN}\`</code>
 - 誤: `config.headers.common['Authorization'] = process.env.QIITA_TOKEN`
 
 ### babel のメジャーバージョンアップに伴うパッケージの変更
