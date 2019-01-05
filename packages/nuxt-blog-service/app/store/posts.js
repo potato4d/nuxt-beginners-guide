@@ -28,7 +28,7 @@ export const actions = {
   async fetchPosts({ commit }) {
     const posts = await this.$axios.$get(`/posts.json`)
     commit('clearPosts')
-    Object.entries(posts)
+    Object.entries(posts || [])
       .reverse()
       .forEach(([id, content]) =>
         commit('addPost', {
