@@ -37,7 +37,7 @@ $ yarn add -D @babel/preset-env
 
 package.json:
 
-```
+```json
 {
   ...
   "babel": {
@@ -65,7 +65,7 @@ common.css を作成後、設定として追加するコードが漏れていま
 
 nuxt.config.js へ以下を追加:
 
-```
+```js
 module.exports = {
   ...
   css: [
@@ -74,6 +74,25 @@ module.exports = {
   ],
   ...
 }
+```
+
+### P.115
+
+nuxt_blog_service を開発する際、テストデータが 0 件の状態でデータを読み込みを試みた場合の例外処理を追記する必要があります。書籍を読みつつ実装を進めた場合はデータが 1 件以上存在するため問題とならないことが多いですが、再現した場合は以下のコードの追記をお願いいたします。
+
+```diff
+index 6086f4d..714af09 100644
+--- a/app/store/posts.js
++++ b/app/store/posts.js
+@@ -28,7 +28,7 @@ export const actions = {
+     async fetchPosts({ commit }) {
+         const posts = await this.$axios.$get('/posts.json')
+         commit('clearPosts')
+-        Object.entries(posts)
++        Object.entries(posts || [])
+             .reverse()
+             .forEach(([id, content]) =>
+                 commit('addPost', {
 ```
 
 ## その他のもの
