@@ -104,6 +104,28 @@ index 6086f4d..714af09 100644
                  commit('addPost', {
 ```
 
+### P.117
+
+P.122 に記述されている内容とほぼ同一ですが、 P.117 での実装は SPA 専用の、 P.122 は SSR / SPA 両対応の Universal なコードとなっています。
+
+P.117 の実装で SSR 時にエラーが出るときは、以下の P.122 のコードへと先に書き換えてください。
+
+```diff
+diff --git a/app/pages/posts/_id.vue b/app/pages/posts/_id.vue
+index 61c1abf..6bca794 100644
+--- a/app/pages/posts/_id.vue
++++ b/app/pages/posts/_id.vue
+@@ -28,7 +28,7 @@ export default {
+         }
+         try {
+             await store.dispatch('posts/fetchPost', { id })
+-            if(!(store.getters['posts/posts'].find(p => p.id === this.$route.params.id))) {
++            if(!(store.getters['posts/posts'].find(p => p.id === route.params.id))) {
+                 throw new Error('post not found')
+             }
+         } catch (e) {
+```
+
 ## その他のもの
 
 ### P.125 サンプルコードのファイル名
