@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Nuxt.js ビギナーズガイド',
   description: '「Nuxt.js ビギナーズガイド（C&R研究所出版）」　のサポートページです',
+  ga: 'UA-63818166-26',
   themeConfig: {
     algolia: {
       appId: 'SDCNXEIPU4',
