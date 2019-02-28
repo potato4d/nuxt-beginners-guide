@@ -11,7 +11,6 @@
     "format": "prettier 'docs/**/*.{js,vue,md}' --write"
   },
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
     "prettier": "^1.14.2",
     "vuepress": "^0.14.2"
   }
