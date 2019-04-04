@@ -25,6 +25,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "diwao",
+      "name": "Daisuke Iwao",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6600973?v=4",
+      "profile": "https://diwao.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
